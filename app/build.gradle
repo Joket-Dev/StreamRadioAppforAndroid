@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.codecanyon.radio"
+        minSdkVersion 14
+        targetSdkVersion 14
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services:+'
+    compile files('libs/android.jar')
+    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:multidex:+'
+    compile 'com.android.volley:volley:1.0.0'
+}

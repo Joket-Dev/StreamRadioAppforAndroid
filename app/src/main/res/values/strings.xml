@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stream Radio 2</string>
+
+    <string name="title_1">1Power</string>
+    <string name="title_2">Social</string>
+
+    <string name="connection_error_dialog_title">Connection Error</string>
+    <string name="radio_offline">The radio is offline.</string>
+    <string name="resume">Tap to resume.</string>
+    <string name="connection_error_dialog_message">No Internet connection. Please check your connection and try again.</string>
+    <string name="connection_error_dialog_button">Retry</string>
+
+    <string name="admob_id">ca-app-pub-6724609620092206/8406682772</string>
+    <string name="admob_true_or_false">true</string>
+
+    <string name="welcome_small">Tap to start.</string>
+
+    <string name="radio_name">1Power</string>
+    <string name="radio_location">New York</string>
+    <string name="radio_url">http://powerhitz.powerhitz.com:5040</string>
+
+    <string name="web_url">https://twitter.com/power1051</string>
+    <string name="share_url">http://codecanyon.net/item/stream-radio-multiple-station/8676912</string>
+
+    <string name="autostart_true_or_false">false</string>
+
+    <!--SAMPLE KEY, PLEASE REPLACE IT UNLESS YOUR APP WILL FORCE CLOSING!!!-->
+    <string name="item_purchase_code">ea4a98dc-a164-4942-a17b-386d17094dd3</string>
+</resources>
